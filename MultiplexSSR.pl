@@ -40,11 +40,11 @@ my $s="F";
 &parse_command_line();
 
 ####
-$trf=$bin."/trf409.linux64";
-$lobSTR=$bin."/lobSTR";
-$primer3=$bin."/primer3-2.4.0/src/primer3_core";
-$ePCR=$bin."/ePCR";
-$Multiplx=$bin."/Multiplx";
+$trf="/opt/MultiplexSSR/bin/trf409.linux64";
+$lobSTR="/opt/MultiplexSSR/bin/lobSTR";
+$primer3="/opt/MultiplexSSR/bin/primer3-2.4.0/src/primer3_core";
+$ePCR="/opt/MultiplexSSR/bin/ePCR";
+$Multiplx="/opt/MultiplexSSR/bin/Multiplx";
 ####
 my $i="";
 my $line="";
